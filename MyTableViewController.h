@@ -1,5 +1,5 @@
 //
-//  AJViewController.h
+//  MyTableViewController.h
 //  UITableView
 //
 //  Created by Allan Jones on 4/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AJViewController : UIViewController
+@interface MyTableViewController : UITableViewController
 
 @end

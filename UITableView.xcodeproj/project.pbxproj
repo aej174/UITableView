@@ -14,13 +14,13 @@
 		2243A02618FC61D0007102ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A02518FC61D0007102ED /* main.m */; };
 		2243A02A18FC61D0007102ED /* AJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A02918FC61D0007102ED /* AJAppDelegate.m */; };
 		2243A02D18FC61D0007102ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243A02B18FC61D0007102ED /* Main.storyboard */; };
-		2243A03018FC61D0007102ED /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A02F18FC61D0007102ED /* AJViewController.m */; };
 		2243A03218FC61D0007102ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2243A03118FC61D0007102ED /* Images.xcassets */; };
 		2243A03918FC61D0007102ED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2243A03818FC61D0007102ED /* XCTest.framework */; };
 		2243A03A18FC61D0007102ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2243A01918FC61D0007102ED /* Foundation.framework */; };
 		2243A03B18FC61D0007102ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2243A01D18FC61D0007102ED /* UIKit.framework */; };
 		2243A04318FC61D0007102ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2243A04118FC61D0007102ED /* InfoPlist.strings */; };
 		2243A04518FC61D0007102ED /* UITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2243A04418FC61D0007102ED /* UITableViewTests.m */; };
+		226E52E218FC6F6000D79862 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226E52E118FC6F6000D79862 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		2243A02818FC61D0007102ED /* AJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJAppDelegate.h; sourceTree = "<group>"; };
 		2243A02918FC61D0007102ED /* AJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJAppDelegate.m; sourceTree = "<group>"; };
 		2243A02C18FC61D0007102ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2243A02E18FC61D0007102ED /* AJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJViewController.h; sourceTree = "<group>"; };
-		2243A02F18FC61D0007102ED /* AJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJViewController.m; sourceTree = "<group>"; };
 		2243A03118FC61D0007102ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2243A03718FC61D0007102ED /* UITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2243A03818FC61D0007102ED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2243A04018FC61D0007102ED /* UITableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewTests-Info.plist"; sourceTree = "<group>"; };
 		2243A04218FC61D0007102ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2243A04418FC61D0007102ED /* UITableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewTests.m; sourceTree = "<group>"; };
+		226E52E018FC6F6000D79862 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableViewController.h; path = ../MyTableViewController.h; sourceTree = "<group>"; };
+		226E52E118FC6F6000D79862 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableViewController.m; path = ../MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				2243A02818FC61D0007102ED /* AJAppDelegate.h */,
 				2243A02918FC61D0007102ED /* AJAppDelegate.m */,
 				2243A02B18FC61D0007102ED /* Main.storyboard */,
-				2243A02E18FC61D0007102ED /* AJViewController.h */,
-				2243A02F18FC61D0007102ED /* AJViewController.m */,
+				226E52E018FC6F6000D79862 /* MyTableViewController.h */,
+				226E52E118FC6F6000D79862 /* MyTableViewController.m */,
 				2243A03118FC61D0007102ED /* Images.xcassets */,
 				2243A02018FC61D0007102ED /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226E52E218FC6F6000D79862 /* MyTableViewController.m in Sources */,
 				2243A02618FC61D0007102ED /* main.m in Sources */,
-				2243A03018FC61D0007102ED /* AJViewController.m in Sources */,
 				2243A02A18FC61D0007102ED /* AJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +457,7 @@
 				2243A04A18FC61D0007102ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2243A04B18FC61D0007102ED /* Build configuration list for PBXNativeTarget "UITableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				2243A04D18FC61D0007102ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
